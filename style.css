@@ -1,0 +1,594 @@
+
+@font-face {
+    font-family: "handwrittenv2-regular";
+    src: url(/Font/HandwrittenV2-Regular.otf);
+}
+
+.html{
+    scroll-behavior: smooth;
+}
+
+.main{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+body {
+   font-family: "rooney-sans", sans-serif;
+   font-weight: 400;
+   font-style: normal;
+    text-align: center;
+    background-color: rgb(240, 235, 220);
+    color: black;
+    padding: 0;
+    margin: 0;
+}
+
+.Logo{
+    width: 125px;
+    margin-top: 55px;
+}
+
+.GIF{
+   width: 77%;
+   margin-top: 125px;
+}
+
+.Intro{
+padding-bottom: 16px;
+margin-top: 55px;
+}
+
+
+.side-nav{
+    width: 0px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+    background: rgb(240, 235, 220);
+    transition: width 0.5s;
+}
+
+.menü-img{
+    width: 40px;
+    margin: 25px;
+}
+
+ul{
+    list-style: none;
+    padding: 0 15px;
+}
+ul li{
+    font-family: "handwrittenV2-regular";
+    font-size: 25px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
+
+.side-nav:hover{
+width: 250px;
+}
+
+.side-nav:hover ul li{
+display: block;
+}
+
+.side-nav-right{
+    width: 100px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 30px 15px;
+    background: rgb(240, 235, 220);
+    transition: width 0.5s;
+}
+
+.menü-right-img{
+width: 40px;
+margin: 25px;
+}
+
+ul{
+    list-style: none;
+    padding: 0 15px;
+}
+
+ul li{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.side-nav-right:hover{
+    width: 250px;
+}
+
+.side-nav-right:hover ul li{
+display: block;
+}
+
+.Auswahl{
+    font-family: "handwrittenv2-regular";
+    text-align: center;
+    font-size: 30px;
+    margin-top: 190px;
+    margin-bottom: 191px;
+}
+
+.Auswahl a:hover{
+    font-size: 200%;
+}
+
+.Rosa:hover{
+    color: rgb(250, 145, 210);
+}
+
+.Blau:hover{
+    color: rgb(145, 200, 250);
+}
+
+.Grün:hover{
+    color: rgb(115, 205, 120);
+}
+
+.Auswahl h1{
+    padding: 44.5px 0;
+}
+
+.Auswahl a{
+   color: black;
+   text-decoration: none;
+}
+
+.footer{
+    position: fixed;
+}
+
+.Headline1{
+    font-family: handwrittenV2-regular;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: -80px;
+}
+
+.Headline1ATH{
+    font-family: handwrittenV2-regular;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.Headline1_KONTAKT{
+    font-family: handwrittenV2-regular;
+    font-size: 50px;
+    margin-top: 175px;
+    margin-bottom: -80px;
+}
+
+.Headline1_IMPRESSUM{
+    font-family: handwrittenV2-regular;
+    font-size: 50px;
+    margin-top: 175px;
+    margin-bottom: -80px;
+}
+
+.Headline1_ABOUT{
+    font-family: handwrittenV2-regular;
+    font-size: 50px;
+    margin-top: 175px;
+    margin-bottom: -80px;
+}
+
+.Unterstrich{
+    width: 700px;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+
+.Kringel{
+    margin-bottom: -105px;
+    padding: 0;
+}
+
+h2{
+    font-family: "handwrittenV2-regular";
+    font-size: 50px;
+    font-style: normal;
+     text-align: center;
+     color: black;
+     margin: 0;
+     padding: 0;
+}
+
+.N{
+    margin: 150px;}
+
+.bodyTH{
+    background-color: rgb(250, 145, 210);
+    margin: 0;
+    padding: 0;
+}
+
+.bodyATH{
+    background-color: rgb(250, 145, 210);
+}
+
+.bodyAS{
+    background-color: rgb(145, 200, 250);
+}
+
+.bodyIN{
+    background-color: rgb(115, 205, 120);
+}
+
+.bodyAAS{
+    background-color: rgb(145, 200, 250);
+}
+
+.bodyAIQ{
+    background-color: rgb(115, 205, 120);
+}
+
+.side-navTH{
+    width: 0px;
+    height: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+    background: rgb(250, 145, 210);
+    transition: width 0.5s;
+}
+
+.menü-img{
+    width: 40px;
+    margin: 25px;
+}
+
+ul{
+    list-style: none;
+    padding: 0 15px;
+}
+ul li{
+    font-family: "handwrittenV2-regular";
+    font-size: 25px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
+
+.side-navTH:hover{
+width: 250px;
+}
+
+.side-navTH:hover ul li{
+display: block;
+}
+
+.side-nav-rightTH{
+    width: 100px;
+    height: 50%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 30px 15px;
+    background: rgb(250, 145, 210);
+    transition: width 0.5s;
+}
+
+.menü-right-img{
+width: 40px;
+margin: 25px;
+}
+
+ul{
+    list-style: none;
+    padding: 0 15px;
+}
+
+ul li{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
+
+.side-nav-rightTH:hover{
+    width: 250px;
+}
+
+.side-nav-rightTH:hover ul li{
+display: block;
+}
+
+.side-navAS{
+    width: 0px;
+    height: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+    background: rgb(145, 200, 250);
+    transition: width 0.5s;
+}
+
+.menü-img{
+    width: 40px;
+    margin: 25px;
+}
+
+ul{
+    list-style: none;
+    padding: 0 15px;
+}
+ul li{
+    font-family: "handwrittenV2-regular";
+    font-size: 25px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
+
+.side-navAS:hover{
+width: 250px;
+}
+
+.side-navAS:hover ul li{
+display: block;
+}
+
+.side-nav-rightAS{
+    width: 100px;
+    height: 50%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 30px 15px;
+    background: rgb(145, 200, 250);
+    transition: width 0.5s;
+}
+
+.menü-right-img{
+width: 40px;
+margin: 25px;
+}
+
+ul{
+    list-style: none;
+    padding: 0 15px;
+}
+
+ul li{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
+
+.side-nav-rightAS:hover{
+    width: 250px;
+}
+
+.side-nav-rightAS:hover ul li{
+display: block;
+}
+
+.side-navIN{
+    width: 0px;
+    height: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 15px;
+    background: rgb(115, 205, 120);
+    transition: width 0.5s;
+}
+
+.menü-img{
+    width: 40px;
+    margin: 25px;
+}
+
+ul{
+    list-style: none;
+    padding: 0 15px;
+}
+ul li{
+    font-family: "handwrittenV2-regular";
+    font-size: 25px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
+
+.side-navIN:hover{
+width: 250px;
+}
+
+.side-navIN:hover ul li{
+display: block;
+}
+
+.side-nav-rightIN{
+    width: 100px;
+    height: 50%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 30px 15px;
+    background: rgb(115, 205, 120);
+    transition: width 0.5s;
+}
+
+.menü-right-img{
+width: 40px;
+margin: 25px;
+}
+
+ul{
+    list-style: none;
+    padding: 0 15px;
+}
+
+ul li{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
+
+.side-nav-rightIN:hover{
+    width: 250px;
+}
+
+.side-nav-rightIN:hover ul li{
+display: block;
+}
+
+.ImpressumT p {
+margin-bottom: 443px;
+}
+
+.KontaktT p {
+    margin-bottom: 263px;
+}
+
+.AboutT p {
+    margin-bottom: 343px;
+}
+
+.StickerHL{
+    width: 200px;
+    margin-top: 75px;
+    margin-bottom: 0;
+}
+
+.StickerAS{
+    width: 200px;
+    margin-top: 75px;
+    margin-bottom: 0;
+}
+
+.StickerIQ{
+    width: 200px;
+    margin-top: 75px;
+    margin-bottom: 2;
+}
+
+.StickerIDX{
+    width: 200px;
+    margin-top: 250px;
+    margin-bottom: -450px;
+    margin-left: 20px;
+    position: relative;
+    z-index: 10000;
+    padding: 0;
+    opacity: 0;
+    animation: visible 10s linear forwards 1;
+}
+
+@keyframes visible{
+  0%,99%{
+    opacity: 0;
+  }  
+  100%{
+    opacity: 1;
+  }
+}
+
+.Container{
+    background-color: rgb(240, 235, 220);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.ContainerATH{
+background-color: rgb(240, 235, 220);
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+
+.Footer{
+background-color: rgb(240, 235, 220);
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+
+.top {
+    --offset: 50px; 
+  
+    position: sticky;
+    bottom: 95px;      
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+  
+    .top img{
+    padding: 10px;
+    } 
+  }
+
+
+  .centered {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 100%;
+width: 100%;
+position: fixed;
+top: 0px;
+left: 0;
+right: 0;
+bottom: 0;
+gap: 20px;
+z-index: 0;
+}
+
+.link {
+z-index: 1;
+position: fixed;
+left: 2%;
+top: 2%;
+width: 40px;
+margin-top: 35px;
+margin-bottom: 0;
+}
+
+.BACK {
+margin: 0;
+}

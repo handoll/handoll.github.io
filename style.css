@@ -8,6 +8,7 @@
     scroll-behavior: smooth;
 }
 
+
 .main{
     display: grid;
     place-items: center;
@@ -32,12 +33,12 @@ body {
 
 .GIF{
    width: 77%;
-   margin-top: 125px;
+   margin-top: 150px;
 }
 
 .Intro{
-padding-bottom: 16px;
-margin-top: 55px;
+padding-bottom: 10px;
+margin-top: 70px;
 }
 
 
@@ -593,68 +594,494 @@ margin-bottom: 0;
 margin: 0;
 }
 
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
+.KontaktT p{
+padding: 0, 0;
+margin-bottom: 10px;
+}
 
-@media (min-width: 1281px) {
-  
-    /* CSS */
+.AboutT p{
+    padding: 0, 0;
+    margin-bottom: 10px;
+    }
+
+@media screen and
+(max-width: 900px) {
+
+.Headline1{
+    font-size: 25px;
+    margin-bottom: -70px;
+    padding: 0;
+}
+
+.Headline1_ABOUT{
+    font-size: 25px;
+    margin-bottom: -60px;
+    margin-top: 100px;
+}
+
+.Headline1_IMPRESSUM{
+    font-size: 25px;
+    margin-bottom: -100px;
+    margin-top: 200px;
+}
+
+.Headline1_KONTAKT{
+    font-size: 25px;
+    margin-bottom: -50px;
+    margin-top: 20px;
+}
+
+p{
+    font-size: 18px;
+    padding: 10px;
+}
+
+.Intro{
+    font-size: 18px;
+    padding: 10px;
+    -webkit-hyphens: auto; 
+    hyphens: auto; 
+}
+
+.Unterstrich{
+visibility: hidden;
+}
+
+.StickerHL{
+margin-top: 130px;
+z-index: 999;
+}
+
+.StickerAS{
+    margin-top: 130px;
+    z-index: 999;
+    }
+
+.StickerIQ{
+    margin-top: 130px;
+    z-index: 999;
+    }
+
+h2 {
+    font-family: "handwrittenV2-regular";
+    font-size: 40px;
+     text-align: center;
+     color: black;
+}
+
+main {
+display: flex;
+flex-direction: column;
+place-items: center;
+text-align: center;
+}
+
+.side-nav{
+    width: 100px;
+    height: 15%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px 0;
+    background: rgb(240, 235, 220);
+    transition: width 0.5s;
+}
+
+.menü-img{
+    width: 30px;
+    margin: 25px; 
+}
+
+ul{
+    list-style: none;
+    padding: 0 15px;
+}
+ul li{
+    font-family: "handwrittenV2-regular";
+    font-size: 25px;
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
+
+.side-nav:hover{
+width: 100%;
+height: 50%;
+z-index: 99999;
+}
+
+.side-nav:hover ul li{
+display: block;
+}
+
+.side-nav-right{
+    width: 100px;
+    height: 15%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 30px 0;
+    background: rgb(240, 235, 220);
+    transition: width 0.5s;
+}
+
+.menü-right-img{
+width: 35px;
+margin: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 0 15px;
+}
+
+ul li{
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    display: none;
+}
+
+.side-nav-right:hover{
+    width: 100%;
+    height: 50%;
+z-index: 99999;
+    }
+
+    .side-navTH{
+        width: 100px;
+        height: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 30px 0;
+        background: rgb(250, 145, 210);
+        transition: width 0.5s;
+    }
     
-  }
-  
-  /* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
-  
-  @media (min-width: 1025px) and (max-width: 1280px) {
+    .menü-img{
+        width: 30px;
+        margin: 25px; 
+    }
     
-    /* CSS */
+    ul{
+        list-style: none;
+        padding: 0 15px;
+    }
+    ul li{
+        font-family: "handwrittenV2-regular";
+        font-size: 25px;
+        margin: 30px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        display: none;
+    }
     
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (portrait)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) {
+    .side-navTH:hover{
+    width: 100%;
+    height: 50%;
+    z-index: 99999;
+    }
     
-    /* CSS */
+    .side-navTH:hover ul li{
+    display: block;
+    }
     
-  }
-  
-  /* 
-    ##Device = Tablets, Ipads (landscape)
-    ##Screen = B/w 768px to 1024px
-  */
-  
-  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .side-nav-rightTH{
+        width: 100px;
+        height: 0;
+        position:absolute;
+        top: 0;
+        right: 0;
+        padding: 30px 0;
+        background: rgb(250, 145, 210);
+        transition: width 0.5s;
+    }
     
-    /* CSS */
+    .menü-right-img{
+    width: 35px;
+    margin: 20px;
+    }
     
-  }
-  
-  /* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-  */
-  
-  @media (min-width: 481px) and (max-width: 767px) {
+    ul{
+        list-style: none;
+        padding: 0 15px;
+    }
     
-    /* CSS */
+    ul li{
+        margin: 30px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        display: none;
+    }
     
-  }
-  
-  /* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-  */
-  
-  @media (min-width: 320px) and (max-width: 480px) {
-    
-    /* CSS */
-    
-  }
+    .side-nav-rightTH:hover{
+        width: 100%;
+        height: 50%;
+    z-index: 99999;
+        }
+
+        .side-navAS{
+            width: 100px;
+            height: 15%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 30px 0;
+            background: rgb(145, 200, 250);
+            transition: width 0.5s;
+        }
+        
+        .menü-img{
+            width: 30px;
+            margin: 25px; 
+        }
+        
+        ul{
+            list-style: none;
+            padding: 0 15px;
+        }
+        ul li{
+            font-family: "handwrittenV2-regular";
+            font-size: 25px;
+            margin: 30px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            display: none;
+        }
+        
+        .side-navAS:hover{
+        width: 100%;
+        height: 50%;
+        z-index: 99999;
+        }
+        
+        .side-navAS:hover ul li{
+        display: block;
+        }
+        
+        .side-nav-rightAS{
+            width: 100px;
+            height: 15%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            padding: 30px 0;
+            background: rgb(145, 200, 250);
+            transition: width 0.5s;
+        }
+        
+        .menü-right-img{
+        width: 35px;
+        margin: 20px;
+        }
+        
+        ul{
+            list-style: none;
+            padding: 0 15px;
+        }
+        
+        ul li{
+            margin: 30px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            display: none;
+        }
+        
+        .side-nav-rightAS:hover{
+            width: 100%;
+            height: 50%;
+        z-index: 99999;
+            }
+
+            .side-navIN{
+                width: 100px;
+                height: 15%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                padding: 30px 0;
+                background: rgb(115, 205, 120);
+                transition: width 0.5s;
+            }
+            
+            .menü-img{
+                width: 30px;
+                margin: 25px; 
+            }
+            
+            ul{
+                list-style: none;
+                padding: 0 15px;
+            }
+            ul li{
+                font-family: "handwrittenV2-regular";
+                font-size: 25px;
+                margin: 30px 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                display: none;
+            }
+            
+            .side-navIN:hover{
+            width: 100%;
+            height: 50%;
+            z-index: 99999;
+            }
+            
+            .side-navIN:hover ul li{
+            display: block;
+            }
+            
+            .side-nav-rightIN{
+                width: 100px;
+                height: 15%;
+                position: absolute;
+                top: 0;
+                right: 0;
+                padding: 30px 0;
+                background: rgb(115, 205, 120);
+                transition: width 0.5s;
+            }
+            
+            .menü-right-img{
+            width: 35px;
+            margin: 20px;
+            }
+            
+            ul{
+                list-style: none;
+                padding: 0 15px;
+            }
+            
+            ul li{
+                margin: 30px 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                display: none;
+            }
+            
+            .side-nav-rightIN:hover{
+                width: 100%;
+                height: 50%;
+            z-index: 99999;
+                }
+
+.Logo{
+width:75px;
+margin-bottom: 0;
+}
+
+.GIF{
+    width: 900px;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+.StickerIDX{
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: -275px;
+}
+
+.Headline1ATH{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.Kringel{
+    margin-bottom: -100px;
+    padding: 0;
+}
+
+.bodyATH p{
+    font-size: 14px;
+}
+
+.bodyAAS p{
+    font-size: 10px;
+}
+
+.bodyAIQ p{
+    font-size: 12px;
+}
+
+.link{
+    z-index: 1;
+    position: fixed;
+    left: 2%;
+    top: 2%;
+    width: 30px;
+    margin-top: 38px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+
+.centered{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 100%;
+width: 100%;
+top: 0px;
+left: 0;
+right: 0;
+bottom: 0;
+gap: 10px;
+z-index: 0;
+}
+
+.Auswahl{
+    font-size: 20px;
+    margin-top: 100px;
+}
+
+.Auswahl a:hover{
+    font-size: 35px;
+}
+
+.Rosa:hover{
+    color: rgb(250, 145, 210);
+}
+
+.Blau:hover{
+    color: rgb(145, 200, 250);
+}
+
+.Grün:hover{
+    color: rgb(115, 205, 120);
+}
+
+.mobil br{
+    display: none;
+}
+.KontaktT p{
+    margin: -5px;
+}
+.AboutT p{
+    margin: -5px;
+}
+.bodyTH{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+}

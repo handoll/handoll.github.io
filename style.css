@@ -37,8 +37,8 @@ body {
 }
 
 .Intro{
-padding-bottom: 10px;
-margin-top: 70px;
+padding-bottom: 0px;
+margin-top: 50px;
 }
 
 
@@ -609,6 +609,7 @@ margin-bottom: 10px;
 
 .Headline1{
     font-size: 25px;
+    font-weight: lighter;
     margin-bottom: -70px;
     padding: 0;
 }
@@ -617,18 +618,21 @@ margin-bottom: 10px;
     font-size: 25px;
     margin-bottom: -60px;
     margin-top: 100px;
+    font-weight: lighter;
 }
 
 .Headline1_IMPRESSUM{
     font-size: 25px;
     margin-bottom: -100px;
     margin-top: 200px;
+    font-weight: lighter;
 }
 
 .Headline1_KONTAKT{
     font-size: 25px;
     margin-bottom: -50px;
     margin-top: 20px;
+    font-weight: lighter;
 }
 
 p{
@@ -641,6 +645,7 @@ p{
     padding: 10px;
     -webkit-hyphens: auto; 
     hyphens: auto; 
+    margin-top: 80px;
 }
 
 .Unterstrich{
@@ -664,6 +669,7 @@ z-index: 999;
 
 h2 {
     font-family: "handwrittenV2-regular";
+    font-weight: lighter;
     font-size: 40px;
      text-align: center;
      color: black;
@@ -987,6 +993,7 @@ z-index: 99999;
 .Logo{
 width:75px;
 margin-bottom: 0;
+position:relative;
 }
 
 .GIF{
@@ -1073,15 +1080,28 @@ z-index: 0;
 .mobil br{
     display: none;
 }
+
 .KontaktT p{
     margin: -5px;
+    font-size: 12px;
 }
+
 .AboutT p{
     margin: -5px;
+    font-size: 12px;
 }
+
+.ImpressumT{
+    font-size: 12px;
+}
+
 .bodyTH{
     padding: 0;
     margin: 0;
     width: 100%;
+}
+
+.Footer{
+    position: fixed;
 }
 }

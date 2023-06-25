@@ -626,6 +626,19 @@ margin-bottom: 10px;
         text-align: center;
         }
 
+        .top {
+            --offset: 50px; 
+          
+            position: sticky;
+            bottom: 95px;      
+            place-self: end;
+            margin-top: calc(100vh + var(--offset));
+          
+            .top img{
+            padding: 10px;
+            } 
+          }
+
 .Headline1{
     font-size: 25px;
     font-weight: lighter;
@@ -732,7 +745,7 @@ ul li{
 
 .side-nav:hover{
 width: 100%;
-height: 60%;
+height: 100%;
 z-index: 99999;
 }
 
@@ -772,7 +785,7 @@ ul li{
 
 .side-nav-right:hover{
     width: 100%;
-    height: 60%;
+    height: 100%;
 z-index: 99999;
     }
 
@@ -809,7 +822,7 @@ z-index: 99999;
     
     .side-navTH:hover{
     width: 100%;
-    height: 60%;
+    height: 100%;
     z-index: 99999;
     }
     
@@ -849,7 +862,7 @@ z-index: 99999;
     
     .side-nav-rightTH:hover{
         width: 100%;
-        height: 50%;
+        height: 100%;
     z-index: 99999;
         }
 
@@ -886,7 +899,7 @@ z-index: 99999;
         
         .side-navAS:hover{
         width: 100%;
-        height: 60%;
+        height: 100%;
         z-index: 99999;
         }
         
@@ -926,7 +939,7 @@ z-index: 99999;
         
         .side-nav-rightAS:hover{
             width: 100%;
-            height: 60%;
+            height: 100%;
         z-index: 99999;
             }
 
@@ -963,7 +976,7 @@ z-index: 99999;
             
             .side-navIN:hover{
             width: 100%;
-            height: 60%;
+            height: 100%;
             z-index: 99999;
             }
             
@@ -1003,7 +1016,7 @@ z-index: 99999;
             
             .side-nav-rightIN:hover{
                 width: 100%;
-                height: 60%;
+                height: 100%;
             z-index: 99999;
                 }
 
@@ -1014,14 +1027,24 @@ margin-bottom: 0;
 
 .GIF{
     width: 900px;
-    margin-top: 125px;
-    margin-bottom: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    top: 0px;
+    bottom: 0;
 }
 
 .StickerIDX{
     width: 150px;
-    margin-top: 10px;
-    margin-bottom: -350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    top: 0px;
+    bottom: 0;
 }
 
 .Headline1ATH{
@@ -1152,6 +1175,17 @@ bottom: 0;
     width: 375px;
     display: block;
     margin-top: -65px;
+}
+
+.MOBIL_TEXT{
+width:350px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 100%;
+top: 0px;
+bottom: 0;
 }
 
 }

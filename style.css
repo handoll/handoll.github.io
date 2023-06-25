@@ -1142,7 +1142,7 @@ bottom: 0;
     bottom: 0;
 }
 
-.ImpressumT{
+.ImpressumT p{
     font-size: 12px;
     align-items: center;
     justify-content: center;
@@ -1181,6 +1181,10 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 margin-top: -80px;
+}
+
+.Instagram {
+font-size: 12px;
 }
 
 }

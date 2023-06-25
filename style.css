@@ -1160,8 +1160,7 @@ bottom: 0;
 }
 
 .Footer{
-    position: fixed;
-    place-self: end;
+    position: absolute
 }
 
 .Unterstrich_Mobil{
@@ -1178,12 +1177,7 @@ bottom: 0;
 
 .MOBIL_TEXT{
 width:350px;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-height: 100%;
-top: 0px;
-bottom: 0;
+margin-top: 10px;
 }
 
 }

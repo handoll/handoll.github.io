@@ -1023,7 +1023,6 @@ z-index: 99999;
 .Logo{
 width:75px;
 margin-bottom: 0;
-display: block;
 }
 
 .GIF{
@@ -1177,7 +1176,13 @@ bottom: 0;
 
 .MOBIL_TEXT{
 width:350px;
-margin-top: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 100%;
+top: 0px;
+bottom: 0;
 }
 
 }

@@ -604,8 +604,27 @@ margin-bottom: 10px;
     margin-bottom: 10px;
     }
 
+.Unterstrich_Mobil{
+    display: none;
+}
+
+.Unterstrich_Mobil_SMILEY{
+    display: none;
+}
+
 @media screen and
 (max-width: 900px) {
+
+    main {
+        overflow: hidden;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+        text-align: center;
+        }
 
 .Headline1{
     font-size: 25px;
@@ -620,36 +639,37 @@ h1{
 
 .Headline1_ABOUT{
     font-size: 25px;
-    margin-bottom: -60px;
-    margin-top: 100px;
+    margin-top: 150px;
     font-weight: lighter;
 }
 
 .Headline1_IMPRESSUM{
     font-size: 25px;
-    margin-bottom: -100px;
-    margin-top: 200px;
+    margin-top: 150px;
     font-weight: lighter;
 }
 
 .Headline1_KONTAKT{
     font-size: 25px;
-    margin-bottom: -50px;
-    margin-top: 20px;
+    margin-top: 100px;
     font-weight: lighter;
+}
+
+.Intro{
+    padding: 10px;
+    -webkit-hyphens: auto; 
+    hyphens: auto; 
+    position: absolute;
+    bottom: 0;
+}
+
+.Intro p{
+font-size: 14px;
 }
 
 p{
     font-size: 18px;
     padding: 10px;
-}
-
-.Intro{
-    font-size: 18px;
-    padding: 10px;
-    -webkit-hyphens: auto; 
-    hyphens: auto; 
-    margin-top: 80px;
 }
 
 .Unterstrich{
@@ -677,13 +697,6 @@ h2 {
     font-size: 40px;
      text-align: center;
      color: black;
-}
-
-main {
-display: flex;
-flex-direction: column;
-place-items: center;
-text-align: center;
 }
 
 .side-nav{
@@ -719,7 +732,7 @@ ul li{
 
 .side-nav:hover{
 width: 100%;
-height: 50%;
+height: 60%;
 z-index: 99999;
 }
 
@@ -759,7 +772,7 @@ ul li{
 
 .side-nav-right:hover{
     width: 100%;
-    height: 50%;
+    height: 60%;
 z-index: 99999;
     }
 
@@ -796,7 +809,7 @@ z-index: 99999;
     
     .side-navTH:hover{
     width: 100%;
-    height: 50%;
+    height: 60%;
     z-index: 99999;
     }
     
@@ -873,7 +886,7 @@ z-index: 99999;
         
         .side-navAS:hover{
         width: 100%;
-        height: 50%;
+        height: 60%;
         z-index: 99999;
         }
         
@@ -913,7 +926,7 @@ z-index: 99999;
         
         .side-nav-rightAS:hover{
             width: 100%;
-            height: 50%;
+            height: 60%;
         z-index: 99999;
             }
 
@@ -950,7 +963,7 @@ z-index: 99999;
             
             .side-navIN:hover{
             width: 100%;
-            height: 50%;
+            height: 60%;
             z-index: 99999;
             }
             
@@ -990,27 +1003,25 @@ z-index: 99999;
             
             .side-nav-rightIN:hover{
                 width: 100%;
-                height: 50%;
+                height: 60%;
             z-index: 99999;
                 }
 
 .Logo{
 width:75px;
 margin-bottom: 0;
-position:relative;
-place-self: top;
 }
 
 .GIF{
     width: 900px;
-    margin-top: 50px;
+    margin-top: 125px;
     margin-bottom: -50px;
 }
 
 .StickerIDX{
     width: 150px;
     margin-top: 10px;
-    margin-bottom: -275px;
+    margin-bottom: -350px;
 }
 
 .Headline1ATH{
@@ -1088,17 +1099,37 @@ z-index: 0;
 }
 
 .KontaktT p{
-    margin: -5px;
-    font-size: 12px;
+font-size: 12px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 100%;
+top: 0px;
+bottom: 0;
+
 }
 
 .AboutT p{
-    margin: -5px;
     font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    top: 0px;
+    bottom: 0;
 }
 
 .ImpressumT{
     font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    top: 0px;
+    bottom: 0;
 }
 
 .bodyTH{
@@ -1108,6 +1139,19 @@ z-index: 0;
 }
 
 .Footer{
-    position: fixed;
+    position: absolute;
 }
+
+.Unterstrich_Mobil{
+    width: 375px;
+    display: block;
+    margin-top: -70px;
+}
+
+.Unterstrich_Mobil_SMILEY{
+    width: 375px;
+    display: block;
+    margin-top: -65px;
+}
+
 }

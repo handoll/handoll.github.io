@@ -1023,6 +1023,7 @@ z-index: 99999;
 .Logo{
 width:75px;
 margin-bottom: 0;
+display: block;
 }
 
 .GIF{

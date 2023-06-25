@@ -1093,14 +1093,12 @@ z-index: 0;
 }
 
 .Auswahl{
-    font-size: 20px;
-    display: flex;
+font-size: 20px;
+display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
-height: 100%;
-top: 0px;
-bottom: 0;
+margin-top: 80px;
 }
 
 .Auswahl a:hover{

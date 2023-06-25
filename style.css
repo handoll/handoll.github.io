@@ -680,6 +680,12 @@ h1{
 font-size: 14px;
 }
 
+.Instagram {
+    font-size: 12px;
+    font-family: "handwrittenV2-regular";
+    color: rgb(250, 145, 210);
+    }
+
 p{
     font-size: 18px;
     padding: 10px;
@@ -1181,11 +1187,6 @@ align-items: center;
 justify-content: center;
 flex-direction: column;
 margin-top: -80px;
-}
-
-.Instagram {
-font-size: 12px;
-font-family: "handwrittenV2-regular";
 }
 
 }
